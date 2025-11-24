@@ -1,5 +1,5 @@
 # AutoMaid
-Data’s personal maid
+AutoMaid is a modular Python tool for automated Exploratory Data Analysis, providing summaries, visualizations, and insights for any dataset.
 
 # OBJECTIVE
 

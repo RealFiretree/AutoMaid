@@ -1,5 +1,39 @@
 # AutoMaid
 Data’s personal maid
+
+# OBJECTIVE
+
+Objective:
+
+To create an automated data analytics tool that simplifies the initial steps of data analysis, allowing users to quickly understand and explore any dataset without manual effort.
+
+Key Features (MVP):
+
+1. Data Input & Validation
+    - Accept CSV or Excel files.
+    - Automatically detect file type, encoding, and load into a DataFrame.
+    - Handle common issues like missing files, wrong delimiters, or empty columns.
+2. Automated Data Cleaning
+    - Identify missing values and duplicates.
+    - Impute missing data intelligently (mean/median/mode depending on column type).
+    - Convert data types appropriately and encode categorical variables.
+3. Exploratory Data Analysis (EDA)
+    - Generate summaries of numeric and categorical variables.
+    - Visualize distributions (histograms, boxplots) and correlations.
+    - Provide a concise summary of dataset insights (e.g., most correlated features, key stats).
+
+Tech Stack:
+
+- Python Libraries: pandas, numpy, matplotlib, seaborn
+- Optional for faster EDA: ydata-profiling
+
+Outcome:
+
+A user can upload any dataset and get an automatically cleaned and analyzed version, with visualizations and summaries, ready for further analysis or modeling.
+
+
+
+
 # **What we did?**
 
 We built a **modular EDA (Exploratory Data Analysis) pipeline** in Python with three main modules:
